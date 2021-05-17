@@ -27,6 +27,7 @@ type Component struct {
 
 func makePortfolio() {
 	client := cmc.NewClient(&cmc.Config{
+		// You can get a key at https://coinmarketcap.com/api/
 		ProAPIKey: os.Getenv("CMC_PRO_API_KEY"),
 	})
 
