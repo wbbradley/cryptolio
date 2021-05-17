@@ -3,6 +3,10 @@ module cryptolio
 go 1.16
 
 require (
-	github.com/anaskhan96/soup v1.2.4 // indirect
-	github.com/coincircle/go-coinmarketcap v0.0.0-20180522222104-86a427de333f
+	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751 // indirect
+	github.com/alecthomas/units v0.0.0-20210208195552-ff826a37aa15 // indirect
+	github.com/logrusorgru/aurora v2.0.3+incompatible
+	github.com/miguelmota/go-coinmarketcap v0.1.7
+	github.com/shopspring/decimal v1.2.0
+	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 )
